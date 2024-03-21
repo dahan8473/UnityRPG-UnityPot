@@ -20,6 +20,7 @@ public class Regularingredients: Collectables
     {
 
     }
+    public string description;
     public override void UpdateCollectedItems()
     {
 

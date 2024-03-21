@@ -15,5 +15,5 @@ public class SpecialIngredients : Collectables
     {
         
     }
-    public string name;
+    public string description;
 }
