@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpecialIngredients : MonoBehaviour
+public class SpecialIngredients : NonStackable
 {
     // Start is called before the first frame update
     void Start()
@@ -15,4 +15,5 @@ public class SpecialIngredients : MonoBehaviour
     {
         
     }
+    public string name;
 }

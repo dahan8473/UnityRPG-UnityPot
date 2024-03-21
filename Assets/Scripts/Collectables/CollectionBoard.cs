@@ -15,5 +15,6 @@ public class CollectionBoard : MonoBehaviour
     {
         
     }
+    public Collectables Collecteditems { get; private set; }
     public CollectionBoard() { }
 }

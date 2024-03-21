@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stackable : MonoBehaviour
+public class Stackable : Collectables
 {
     // Start is called before the first frame update
     void Start()
@@ -15,4 +15,5 @@ public class Stackable : MonoBehaviour
     {
         
     }
+    public string name;
 }
