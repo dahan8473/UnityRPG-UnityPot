@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Regularingredients: Stackable 
+public class Regularingredients: Collectables 
 {
 
     // Start is called before the first frame update
