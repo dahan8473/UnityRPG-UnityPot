@@ -10,10 +10,12 @@ public class Enemy : Entity
 
     //public Collectable LoopDrop;
 
-    public void Move()
+
+    public override void Move()
     {
         
     }
+
     public void Patrol()
     {
 
