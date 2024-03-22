@@ -16,8 +16,6 @@ public abstract class Entity : MonoBehaviour
     public float AttackPower;
 
     public float Speed;
-
-    public abstract void Move();
    
 
     public void TakeDamage(float amount)
