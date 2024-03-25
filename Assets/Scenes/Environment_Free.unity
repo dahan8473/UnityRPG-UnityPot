@@ -977,7 +977,7 @@ GameObject:
   - component: {fileID: 972511069}
   - component: {fileID: 972511068}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: TestItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -996,6 +996,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 3
+  player: {fileID: 1962043199}
+  isPlayerInRange: 0
+  pickUpRange: 3
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  panel: {fileID: 1941421524}
+  optionSpeak: {fileID: 0}
+  dialogueBox: {fileID: 1941421528}
 --- !u!135 &972511069
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1076,9 +1085,9 @@ Transform:
   m_GameObject: {fileID: 972511067}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.416101, y: 3.75, z: 69.924805}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 44.73, y: 5.28, z: 82.28}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

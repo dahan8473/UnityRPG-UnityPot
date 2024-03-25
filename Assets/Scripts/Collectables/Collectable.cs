@@ -1,23 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class Collectables : MonoBehaviour
+public class Collectables : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    new public string name = "New Item";
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Sprite icon = null;
 
-    public virtual void UpdateCollectedItems()
-    {
-        
-    }
+    public bool isDefaultItem = false;
 }
