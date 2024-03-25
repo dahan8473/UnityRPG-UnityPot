@@ -12,7 +12,7 @@ public class Interactable : MonoBehaviour
 
     public GameObject optionToCollect;
 
-
+    public Collectables item;
 
     private void OnDrawGizmosSelected()
     {
@@ -22,9 +22,14 @@ public class Interactable : MonoBehaviour
 
     void Collect()
     {
-        Debug.Log("Collecting item");
+        Debug.Log("Collecting item " + item.name);
         //add to inventory
-        Destroy(gameObject);
+        bool wasPickedUp = Inventory.instance.Add(item);
+
+        if(wasPickedUp)
+        {
+            Destroy(gameObject);
+        }
     }
     private void Update()
     {
