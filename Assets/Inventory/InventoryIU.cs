@@ -5,14 +5,20 @@ using UnityEngine;
 public class InventoryIU : MonoBehaviour
 {
     Inventory inventory;
-    // Start is called before the first frame update
+
+    public Transform itemsParent;
+
+    InventorySlot[] slots;
+    
     void Start()
     {
         inventory = Inventory.instance;
         inventory.onItemChangedCallBack += UpdateUI;
+
+        slots = itemsParent.GetComponentsInChildren<InventorySlot>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
