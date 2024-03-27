@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collectables : MonoBehaviour
+public class CollectionBoard : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,9 +15,7 @@ public class Collectables : MonoBehaviour
     {
         
     }
-
-    public virtual void UpdateCollectedItems()
-    {
-        
-    }
+    
+    public Collectables Collecteditems;
+    public CollectionBoard() { }
 }
