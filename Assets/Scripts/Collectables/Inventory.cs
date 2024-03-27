@@ -48,6 +48,7 @@ public class Inventory : MonoBehaviour
             }
 
             items.Add(item); 
+            item.itemAmount = 1;
             Debug.Log(item.itemAmount);
             if (onItemChangedCallBack != null)
                 onItemChangedCallBack.Invoke();
