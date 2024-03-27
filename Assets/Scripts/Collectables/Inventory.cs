@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class Inventory : MonoBehaviour
 {
@@ -19,21 +20,35 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallBack;
 
-    public int space = 20;
+    public int space = 6;
 
     public List<Collectables> items = new List<Collectables>();
 
     public bool Add (Collectables item)
     {
-        if(!item.isDefaultItem) 
+        Collectables copyItem = Instantiate(item);
+       
+        if (!item.isDefaultItem) 
         {
             if(items.Count >= space)
             {
                 Debug.Log("Not enough room.");
                 return false;
             }
-            items.Add(item);
 
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i].name == item.name)
+                {
+                    item.itemAmount++;
+                    Debug.Log(item.itemAmount);
+                    return true;
+                }
+
+            }
+
+            items.Add(item); 
+            Debug.Log(item.itemAmount);
             if (onItemChangedCallBack != null)
                 onItemChangedCallBack.Invoke();
 

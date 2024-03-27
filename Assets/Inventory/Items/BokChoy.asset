@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39c0833a943c95f489834db955e66d72, type: 3}
-  m_Name: Test Item
+  m_Name: BokChoy
   m_EditorClassIdentifier: 
-  name: Lamb roll
-  icon: {fileID: 0}
+  name: Bok choy
+  icon: {fileID: 21300000, guid: 28cda26b136c5494784d30979db0542a, type: 3}
   isDefaultItem: 0

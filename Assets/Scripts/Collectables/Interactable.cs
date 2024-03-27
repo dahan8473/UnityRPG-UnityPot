@@ -46,10 +46,10 @@ public class Interactable : MonoBehaviour
     {
         isPlayerInRange = Physics.CheckSphere(transform.position, pickUpRange, playerLayer);
 
-        if (isPlayerInRange)
+        /*if (isPlayerInRange)
         {
             Debug.Log("Click 'F' to collect");
-        }
+        }*/
 
     }
 }
