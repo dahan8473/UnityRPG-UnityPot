@@ -18,7 +18,7 @@ Left Click  - Attack
 Right Click - Perspective Change  
 
 ### Video Demo
-Watch the game in action here.
+Watch the game in action here.  
 [![Watch the demo video](https://img.youtube.com/vi/DSfL-iYAR2s/0.jpg)](https://youtu.be/DSfL-iYAR2s)
 
 
@@ -27,21 +27,21 @@ Watch the game in action here.
 ![Wu Terrain](ReadMeAsset/wu.jpg)![Shu Terrainm](ReadMeAsset/shu.jpg)![[Wei Terrain](ReadMeAsset/wei.jpg)
 
 ### Entity Models
-![Tortoise Boss](ReadMeAsset/tortoise_Boss.jpg)
-![Qilin Boss](ReadMeAsset/qilin_Boss.jpg)
-![[Dragon Boss](ReadMeAsset/dragon_Boss.jpg)
+![Tortoise Boss](ReadMeAsset/tortoise_Boss.jpg)  
+![Qilin Boss](ReadMeAsset/qilin_Boss.jpg)  
+![[Dragon Boss](ReadMeAsset/dragon_Boss.jpg)  
 
 ### UML Diagrams
 
-![Entity](ReadMeAsset/EntityUML.jpg)
-![Character](ReadMeAsset/CharacterUML.jpg)
-![Diagram](ReadMeAsset/EntityDiagram.jpg)
+![Entity](ReadMeAsset/EntityUML.jpg)  
+![Character](ReadMeAsset/CharacterUML.jpg)  
+![Diagram](ReadMeAsset/EntityDiagram.jpg)  
 
 ## Authors
 
-- Anna Liu
-- David Liu
-- Jennifer Shi
-- Sicheng Zhou
+- Anna Liu  
+- David Liu  
+- Jennifer Shi  
+- Sicheng Zhou  
 
 This project is a collaborative effort by the above members, contributing to various aspects of the game development.
