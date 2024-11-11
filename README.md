@@ -19,7 +19,8 @@ Right Click - Perspective Change
 
 ### Video Demo
 Watch the game in action here.
-[[Demo Video]([https://www.youtube.com/watch?v=u_cnuLz1rgA&ab_channel=AnnaLiu](https://youtu.be/DSfL-iYAR2s))]
+[![Watch the demo video](https://img.youtube.com/vi/DSfL-iYAR2s/0.jpg)](https://youtu.be/DSfL-iYAR2s)
+
 
 ### Map/Terrain Overview
 
