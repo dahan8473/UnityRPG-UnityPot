@@ -9,13 +9,13 @@ In the golden years of his life, after decades of turmoil and triumph on the bat
 His journey took him across ancient lands, from the mist-shrouded valleys of Wu, through the enchanted forests of Shu, to the dragon-guarded peaks of Wei. Each destination held a secret ingredient, guarded by mythical beasts, each battle bringing him closer to his goal. As he returned home with the treasures of the earth, the question lingered in the air like the steam from his simmering pot: would this ultimate hotpot fulfill his quest for meaning, or would it be the start of a new chapter, a new journey beyond the horizon? The general's tale, like the broth of his hotpot, remained rich, mysterious, and wonderfully open-ended.
 
 ### Game Controls
-W, A, S, D  - Character Movement
-Space       - Jump
-Control     - Sprint
-E           - Interact
-F           - NPC Dialogue
-Left Click  - Attack
-Right Click - Perspective Change
+W, A, S, D  - Character Movement  
+Space       - Jump  
+Control     - Sprint  
+E           - Interact  
+F           - NPC Dialogue  
+Left Click  - Attack  
+Right Click - Perspective Change  
 
 ### Video Demo
 Watch the game in action here.
